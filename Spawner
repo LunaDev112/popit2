@@ -1,0 +1,981 @@
+local Env = getfenv();
+local N = {};
+local v1 = {...};
+local r1 = true;
+local r2 = string.gmatch;
+local function r3(...)
+    error("Tamper Detected!");
+    return; 
+end;
+local r4 = false;
+local v2 = pcall(function(...)
+    r4 = true;
+    return; 
+end) and r4;
+local r5 = math.random;
+local v3 = table.concat;
+local function v4(...)
+    while true do
+        l1 = l2;
+        l2 = l1;
+        r3(); 
+    end;
+    return; 
+end;
+local v5 = table;
+if v5 then
+    w = table.unpack;
+end;
+local r6 = v5 or unpack;
+local r7 = r5(3, 65);
+local v6 = {
+    pcall(function(...)
+        return "ca4tr" / (4462846 - "y4" ^ 15076811); 
+    end)
+};
+local v7 = v6[2];
+local r8 = tonumber(r2(tostring(v7), ":(%d*):")());
+for k = 1, r7 do
+    r9 = k;
+    r10 = math.random(1, 100);
+    r11 = r5(0, 255);
+    r12 = r5(1, r10);
+    r13 = r5(1, 2) == 1;
+    r14 = v7.gsub(v7, ":(%d*):", ":" .. tostring(r5(0, 10000)) .. ":");
+    Z = {
+        pcall(function(...)
+            if r5(1, 2) == 1 or r9 == r7 then
+                r1 = r1 and r8 == tonumber(r2(tostring(({
+                    pcall(function(...)
+                        return "0G4K" / (6416312 - "XYMcJ" ^ 12141825); 
+                    end)
+                })[2]), ":(%d*):")());
+            end;
+            if r13 then
+                error(r14, 0);
+            end;
+            v1 = {};
+            for e = 1, r10 do
+                v1[e] = r5(0, 255); 
+            end;
+            v1[r12] = r11;
+            return r6(v1); 
+        end)
+    };
+    if r13 then
+        r1 = r1 and (pcall(function(...)
+            if r5(1, 2) == 1 or r9 == r7 then
+                r1 = r1 and r8 == tonumber(r2(tostring(({
+                    pcall(function(...)
+                        return "0G4K" / (6416312 - "XYMcJ" ^ 12141825); 
+                    end)
+                })[2]), ":(%d*):")());
+            end;
+            if r13 then
+                error(r14, 0);
+            end;
+            v1 = {};
+            for e = 1, r10 do
+                v1[e] = r5(0, 255); 
+            end;
+            v1[r12] = r11;
+            return r6(v1); 
+        end) == false and Z[2] == r14);
+    end; 
+end;
+r1 = r1 and 0 == 0;
+if r1 then
+    r17 = math.floor;
+    r18 = 0;
+    r19 = 2;
+    r20 = {};
+    v5 = 0;
+    v6 = {};
+    for a = 1, 256 do
+        v6[a] = a; 
+    end;
+    v7 = #v6 == 0;
+    a = table.remove(v6, math.random(1, #v6));
+    r20[a] = string.char(a - 1);
+    if #v6 == 0 then
+        r21 = {};
+        r23 = {};
+        r15 = setmetatable({}, {
+            ["__index"] = r23,
+            ["__metatable"] = nil
+        });
+        e = game;
+        e = game;
+        v2 = e.GetService(e, "ReplicatedStorage");
+        e = game;
+        r24 = e.GetService(e, "TweenService");
+        m = game;
+        r25 = m.GetService(m, "CoreGui");
+        v4 = game;
+        w = v4.GetService(v4, "UserInputService");
+        v4 = game;
+        v4 = e.GetService(e, "Players").LocalPlayer;
+        r26 = 500;
+        r27 = {
+            ["bg"] = Color3.fromRGB(8, 5, 18),
+            ["panel"] = Color3.fromRGB(14, 9, 28),
+            ["card"] = Color3.fromRGB(20, 13, 38),
+            ["hover"] = Color3.fromRGB(28, 18, 52),
+            ["purple"] = Color3.fromRGB(160, 40, 255),
+            ["purpleD"] = Color3.fromRGB(100, 20, 180),
+            ["purpleL"] = Color3.fromRGB(200, 100, 255),
+            ["neon"] = Color3.fromRGB(220, 130, 255),
+            ["pink"] = Color3.fromRGB(255, 80, 200),
+            ["white"] = Color3.fromRGB(240, 230, 255),
+            ["muted"] = Color3.fromRGB(120, 90, 160),
+            ["green"] = Color3.fromRGB(80, 255, 160),
+            ["red"] = Color3.fromRGB(255, 60, 100),
+            ["yellow"] = Color3.fromRGB(255, 220, 80)
+        };
+        pcall(function(...)
+            v3 = r25;
+            v1 = v3.FindFirstChild(v3, "NeonSpawnerGUI");
+            if v1 then
+                v1.Destroy(v1);
+            end;
+            return; 
+        end);
+        task.wait(.05);
+        local function r28(arg1_2, arg2_2, ...)
+            X = arg2_2;
+            e = Instance.new("UICorner", arg1_2);
+            v3 = "CornerRadius";
+            if X then
+                v3 = v3;
+                e[v3] = X;
+                return e;
+            else
+                o = UDim.new(0, 8);
+            end; 
+        end;
+        local function r29(arg1_3, arg2_3, arg3_3, ...)
+            X = arg2_3;
+            B = Instance.new("UIStroke", arg1_3);
+            v3 = "Color";
+            o = X;
+            U = v3;
+            if X then
+                v3 = r16;
+                B[v3] = X;
+                v3 = "Thickness";
+                U = v3;
+                B[v3] = arg3_3 or 1.5;
+                B.ApplyStrokeMode = Enum.ApplyStrokeMode.Border;
+                return B;
+            else
+                o = r27.purple;
+            end; 
+        end;
+        local function a(arg1_4, arg2_4, arg3_4, arg4_4, ...)
+            U = Instance.new("UIGradient", arg1_4);
+            U.Color = ColorSequence.new({
+                ColorSequenceKeypoint.new(0, arg2_4),
+                ColorSequenceKeypoint.new(1, arg3_4)
+            });
+            v3 = "Rotation";
+            U[v3] = arg4_4 or 90;
+            v2 = v3;
+            return U; 
+        end;
+        r30 = Instance.new("ScreenGui");
+        r30.Name = "SilentSpawnerGUI";
+        r30.ResetOnSpawn = false;
+        r30.IgnoreGuiInset = true;
+        r30.DisplayOrder = 999;
+        if not pcall(function(...)
+            r30.Parent = r25;
+            return; 
+        end) then
+            r30.Parent = v4.WaitForChild(v4, "PlayerGui");
+        end;
+        r31 = Instance.new("TextButton");
+        r31.Name = "FloatBtn";
+        r31.Size = UDim2.new(0, 62, 0, 62);
+        r31.Position = UDim2.new(0, 14, 1, -82);
+        r31.BackgroundColor3 = r27.purpleD;
+        r31.Text = "\xf0\x9f\xab\xa7";
+        r31.TextSize = 28;
+        r31.Font = Enum.Font.GothamBold;
+        r31.TextColor3 = r27.white;
+        r31.BorderSizePixel = 0;
+        r31.ZIndex = 500;
+        r31.Active = true;
+        r31.Parent = r30;
+        r28(r31, UDim.new(1, 0));
+        r32 = r29(r31, r27.purple, 2.5);
+        r33 = Instance.new("ImageLabel", r31);
+        r33.Size = UDim2.new(1.8, 0, 1.8, 0);
+        r33.Position = UDim2.new(-0.4, 0, -0.4, 0);
+        r33.BackgroundTransparency = 1;
+        r33.Image = "rbxassetid://5028857472";
+        r33.ImageColor3 = r27.purple;
+        r33.ImageTransparency = 0.5;
+        r33.ZIndex = 499;
+        r33.Parent = r31;
+        r34 = false;
+        J = r31.InputBegan;
+        J.Connect(J, function(arg1_5, ...)
+            v1 = arg1_5;
+            if v1.UserInputType == Enum.UserInputType.MouseButton1 or v1.UserInputType == Enum.UserInputType.Touch then
+                r34 = true;
+                r35 = v1.Position;
+                r36 = r31.Position;
+            end;
+            return; 
+        end);
+        J = w.InputChanged;
+        J.Connect(J, function(arg1_6, ...)
+            v1 = arg1_6;
+            if r34 and v1.UserInputType == Enum.UserInputType.MouseMovement then
+                X = v1.Position - r35;
+                r31.Position = UDim2.new(r36.X.Scale, r36.X.Offset + X.X, r36.v5.Scale, r36.v5.Offset + X.v5);
+            end;
+            return; 
+        end);
+        J = w.InputEnded;
+        J.Connect(J, function(arg1_7, ...)
+            v1 = arg1_7;
+            if v1.UserInputType == Enum.UserInputType.MouseButton1 or v1.UserInputType == Enum.UserInputType.Touch then
+                r34 = false;
+            end;
+            return; 
+        end);
+        r37 = 360;
+        r38 = 520;
+        r39 = Instance.new("Frame");
+        r39.Name = "MainFrame";
+        r39.Size = UDim2.new(0, r37, 0, r38);
+        r39.Position = UDim2.new(0.5, -r37 / 2, 0.5, -r38 / 2);
+        r39.BackgroundColor3 = r27.bg;
+        r39.BorderSizePixel = 0;
+        r39.Active = true;
+        r39.Draggable = true;
+        r39.Visible = false;
+        r39.ZIndex = 100;
+        r39.Parent = r30;
+        r28(r39, UDim.new(0, 14));
+        r40 = r29(r39, r27.purple, 2);
+        a(r39, Color3.fromRGB(16, 8, 34), r27.bg, 135);
+        xt = Instance.new("Frame", r39);
+        xt.Size = UDim2.new(1, 0, 0, 3);
+        xt.BackgroundColor3 = r27.purple;
+        xt.BorderSizePixel = 0;
+        xt.ZIndex = 101;
+        r28(xt, UDim.new(0, 14));
+        Mt = Instance.new("Frame", xt);
+        Mt.Size = UDim2.new(1, 0, .6, 0);
+        Mt.Position = UDim2.new(0, 0, .4, 0);
+        Mt.BackgroundColor3 = r27.purple;
+        Mt.BorderSizePixel = 0;
+        Mt.ZIndex = 101;
+        a(xt, r27.pink, r27.purpleL, 0);
+        a(Mt, r27.pink, r27.purpleL, 0);
+        Rt = Instance.new("Frame", r39);
+        Rt.Size = UDim2.new(1, 0, 0, 58);
+        Rt.Position = UDim2.new(0, 0, 0, 3);
+        Rt.BackgroundColor3 = r27.panel;
+        Rt.BorderSizePixel = 0;
+        Rt.ZIndex = 101;
+        Gt = Instance.new("Frame", Rt);
+        Gt.Size = UDim2.new(1, 0, 0, 12);
+        Gt.Position = UDim2.new(0, 0, 1, -12);
+        Gt.BackgroundColor3 = r27.panel;
+        Gt.BorderSizePixel = 0;
+        Gt.ZIndex = 101;
+        Kt = Instance.new("Frame", Rt);
+        Kt.Size = UDim2.new(0, 36, 0, 36);
+        Kt.Position = UDim2.new(0, 12, 0.5, -18);
+        Kt.BackgroundColor3 = r27.purpleD;
+        Kt.BorderSizePixel = 0;
+        Kt.ZIndex = 102;
+        r28(Kt, UDim.new(1, 0));
+        r29(Kt, r27.purpleL, 1.5);
+        ot = Instance.new("TextLabel", Kt);
+        ot.Size = UDim2.new(1, 0, 1, 0);
+        ot.BackgroundTransparency = 1;
+        ot.Text = "\xf0\x9f\xab\xa7";
+        ot.TextSize = 18;
+        ot.ZIndex = 103;
+        Nt = Instance.new("TextLabel", Rt);
+        Nt.Size = UDim2.new(.6, 0, 0, 22);
+        Nt.Position = UDim2.new(0, 56, 0, 8);
+        Nt.BackgroundTransparency = 1;
+        Nt.Text = "SILENT SPAWNER";
+        Nt.TextColor3 = r27.white;
+        Nt.TextSize = 14;
+        Nt.Font = Enum.Font.GothamBold;
+        Nt.TextXAlignment = Enum.TextXAlignment.Left;
+        Nt.ZIndex = 102;
+        a(Nt, r27.purpleL, r27.pink, 0);
+        Nt.TextColor3 = r27.neon;
+        At = Instance.new("TextLabel", Rt);
+        At.Size = UDim2.new(.7, 0, 0, 16);
+        At.Position = UDim2.new(0, 57, 0, 32);
+        At.BackgroundTransparency = 1;
+        At.Text = "by Zed_Scripter  \xe2\x80\xa2  Instant Spawn";
+        At.TextColor3 = r27.muted;
+        At.TextSize = 9;
+        At.Font = Enum.Font.GothamMedium;
+        At.TextXAlignment = Enum.TextXAlignment.Left;
+        At.ZIndex = 102;
+        r41 = Instance.new("TextButton", Rt);
+        r41.Size = UDim2.new(0, 28, 0, 28);
+        r41.Position = UDim2.new(1, -68, 0.5, -14);
+        r41.BackgroundColor3 = Color3.fromRGB(30, 20, 50);
+        r41.Text = "\xe2\x88\x92";
+        r41.TextColor3 = r27.muted;
+        r41.TextSize = 18;
+        r41.Font = Enum.Font.GothamBold;
+        r41.BorderSizePixel = 0;
+        r41.ZIndex = 103;
+        r41.Active = true;
+        r28(r41, UDim.new(0, 7));
+        r29(r41, r27.purpleD, 1);
+        Xt = Instance.new("TextButton", Rt);
+        Xt.Size = UDim2.new(0, 28, 0, 28);
+        Xt.Position = UDim2.new(1, -34, 0.5, -14);
+        Xt.BackgroundColor3 = Color3.fromRGB(100, 15, 35);
+        Xt.Text = "\xe2\x9c\x95";
+        Xt.TextColor3 = Color3.new(1, 1, 1);
+        Xt.TextSize = 13;
+        Xt.Font = Enum.Font.GothamBold;
+        Xt.BorderSizePixel = 0;
+        Xt.ZIndex = 103;
+        Xt.Active = true;
+        r28(Xt, UDim.new(0, 7));
+        r29(Xt, r27.red, 1);
+        et = Instance.new("Frame", r39);
+        et.Size = UDim2.new(1, -20, 0, 34);
+        et.Position = UDim2.new(0, 10, 0, 66);
+        et.BackgroundColor3 = r27.panel;
+        et.BorderSizePixel = 0;
+        et.ZIndex = 101;
+        r28(et, UDim.new(0, 9));
+        r29(et, Color3.fromRGB(50, 20, 90), 1);
+        Bt = Instance.new("TextButton", et);
+        Bt.Size = UDim2.new(0.5, -4, 1, -6);
+        Bt.Position = UDim2.new(0, 3, 0, 3);
+        Bt.BackgroundColor3 = r27.purpleD;
+        Bt.Text = "\xf0\x9f\x93\xa6 Main Spawner";
+        Bt.TextColor3 = r27.white;
+        Bt.TextSize = 11;
+        Bt.Font = Enum.Font.GothamBold;
+        Bt.BorderSizePixel = 0;
+        Bt.ZIndex = 102;
+        Bt.Active = true;
+        r28(Bt, UDim.new(0, 7));
+        r29(Bt, r27.purple, 1.5);
+        qt = Instance.new("Frame", r39);
+        qt.Size = UDim2.new(1, -20, 0, 68);
+        qt.Position = UDim2.new(0, 10, 0, 108);
+        qt.BackgroundColor3 = Color3.fromRGB(40, 20, 5);
+        qt.BorderSizePixel = 0;
+        qt.ZIndex = 101;
+        r28(qt, UDim.new(0, 10));
+        r29(qt, r27.yellow, 1);
+        Ut = Instance.new("Frame", qt);
+        Ut.Size = UDim2.new(0, 3, 1, 0);
+        Ut.BackgroundColor3 = r27.yellow;
+        Ut.BorderSizePixel = 0;
+        Ut.ZIndex = 102;
+        r28(Ut, UDim.new(0, 2));
+        rt = Instance.new("TextLabel", qt);
+        rt.Size = UDim2.new(1, -14, 0, 20);
+        rt.Position = UDim2.new(0, 10, 0, 6);
+        rt.BackgroundTransparency = 1;
+        rt.Text = "\xe2\x9a\xa0\xef\xb8\x8f  IMPORTANT NOTE:";
+        rt.TextColor3 = r27.yellow;
+        rt.TextSize = 11;
+        rt.Font = Enum.Font.GothamBold;
+        rt.TextXAlignment = Enum.TextXAlignment.Left;
+        rt.ZIndex = 102;
+        tt = Instance.new("TextLabel", qt);
+        tt.Size = UDim2.new(1, -14, 0, 38);
+        tt.Position = UDim2.new(0, 10, 0, 26);
+        tt.BackgroundTransparency = 1;
+        tt.Text = "This spawner works ONCE per unique item.\nFor duplicates, use an alt account.";
+        tt.TextColor3 = Color3.fromRGB(200, 170, 100);
+        tt.TextSize = 10;
+        tt.Font = Enum.Font.GothamMedium;
+        tt.TextXAlignment = Enum.TextXAlignment.Left;
+        tt.TextWrapped = true;
+        tt.ZIndex = 102;
+        Pt = Instance.new("Frame", r39);
+        Pt.Size = UDim2.new(1, -20, 0, 54);
+        Pt.Position = UDim2.new(0, 10, 0, 184);
+        Pt.BackgroundColor3 = r27.card;
+        Pt.BorderSizePixel = 0;
+        Pt.ZIndex = 101;
+        r28(Pt, UDim.new(0, 10));
+        r29(Pt, Color3.fromRGB(80, 30, 140), 1.5);
+        Et = Instance.new("TextLabel", Pt);
+        Et.Size = UDim2.new(.4, 0, 0, 16);
+        Et.Position = UDim2.new(0, 10, 0, 5);
+        Et.BackgroundTransparency = 1;
+        Et.Text = "Item Name Search Bar";
+        Et.TextColor3 = r27.neon;
+        Et.TextSize = 10;
+        Et.Font = Enum.Font.GothamBold;
+        Et.TextXAlignment = Enum.TextXAlignment.Left;
+        Et.ZIndex = 102;
+        r42 = Instance.new("TextBox", Pt);
+        r42.Size = UDim2.new(1, -16, 0, 28);
+        r42.Position = UDim2.new(0, 8, 0, 22);
+        r42.BackgroundColor3 = Color3.fromRGB(12, 7, 24);
+        r42.PlaceholderText = "Enter Item Name (e.g. Rainbow)";
+        r42.PlaceholderColor3 = r27.muted;
+        r42.Text = "";
+        r42.TextColor3 = r27.white;
+        r42.TextSize = 12;
+        r42.Font = Enum.Font.GothamMedium;
+        r42.BorderSizePixel = 0;
+        r42.ClearTextOnFocus = false;
+        r42.ZIndex = 102;
+        r28(r42, UDim.new(0, 6));
+        r29(r42, Color3.fromRGB(100, 30, 180), 1);
+        Instance.new("UIPadding", r42).PaddingLeft = UDim.new(0, 8);
+        ft = Instance.new("Frame", r39);
+        ft.Size = UDim2.new(1, -20, 0, 176);
+        ft.Position = UDim2.new(0, 10, 0, 246);
+        ft.BackgroundColor3 = r27.card;
+        ft.BorderSizePixel = 0;
+        ft.ZIndex = 101;
+        r28(ft, UDim.new(0, 10));
+        r29(ft, Color3.fromRGB(80, 30, 140), 1.5);
+        jt = Instance.new("TextLabel", ft);
+        jt.Size = UDim2.new(1, -10, 0, 20);
+        jt.Position = UDim2.new(0, 10, 0, 4);
+        jt.BackgroundTransparency = 1;
+        jt.Text = "\xf0\x9f\x93\xa6  All Items";
+        jt.TextColor3 = r27.neon;
+        jt.TextSize = 10;
+        jt.Font = Enum.Font.GothamBold;
+        jt.TextXAlignment = Enum.TextXAlignment.Left;
+        jt.ZIndex = 102;
+        r43 = Instance.new("ScrollingFrame", ft);
+        r43.Size = UDim2.new(1, -8, 1, -28);
+        r43.Position = UDim2.new(0, 4, 0, 24);
+        r43.BackgroundTransparency = 1;
+        r43.BorderSizePixel = 0;
+        r43.ScrollBarThickness = 3;
+        r43.ScrollBarImageColor3 = r27.purple;
+        r43.AutomaticCanvasSize = Enum.AutomaticSize.v5;
+        r43.CanvasSize = UDim2.new(0, 0, 0, 0);
+        r43.ZIndex = 102;
+        Instance.new("UIListLayout", r43).Padding = UDim.new(0, 4);
+        pt = Instance.new("UIPadding", r43);
+        pt.PaddingTop = UDim.new(0, 3);
+        pt.PaddingLeft = UDim.new(0, 3);
+        pt.PaddingRight = UDim.new(0, 3);
+        r44 = Instance.new("TextButton", r39);
+        r44.Size = UDim2.new(1, -20, 0, 52);
+        r44.Position = UDim2.new(0, 10, 0, 430);
+        r44.BackgroundColor3 = r27.purpleD;
+        r44.Text = "";
+        r44.BorderSizePixel = 0;
+        r44.ZIndex = 101;
+        r44.Active = true;
+        r28(r44, UDim.new(0, 10));
+        r29(r44, r27.purple, 2);
+        a(r44, Color3.fromRGB(120, 20, 220), Color3.fromRGB(80, 0, 160), 135);
+        Vt = Instance.new("TextLabel", r44);
+        Vt.Size = UDim2.new(0, 40, 1, 0);
+        Vt.BackgroundTransparency = 1;
+        Vt.Text = "\xe2\x9c\xa8";
+        Vt.TextSize = 20;
+        Vt.ZIndex = 102;
+        r45 = Instance.new("TextLabel", r44);
+        r45.Size = UDim2.new(1, -56, 0, 22);
+        r45.Position = UDim2.new(0, 44, 0, 6);
+        r45.BackgroundTransparency = 1;
+        r45.Text = "START SPAM";
+        r45.TextColor3 = r27.white;
+        r45.TextSize = 14;
+        r45.Font = Enum.Font.GothamBold;
+        r45.TextXAlignment = Enum.TextXAlignment.Left;
+        r45.ZIndex = 102;
+        Yt = Instance.new("TextLabel", r44);
+        Yt.Size = UDim2.new(1, -56, 0, 16);
+        Yt.Position = UDim2.new(0, 44, 0, 28);
+        Yt.BackgroundTransparency = 1;
+        Yt.Text = "Spams item directly into your inventory";
+        Yt.TextColor3 = Color3.fromRGB(180, 140, 220);
+        Yt.TextSize = 9;
+        Yt.Font = Enum.Font.GothamMedium;
+        Yt.TextXAlignment = Enum.TextXAlignment.Left;
+        Yt.ZIndex = 102;
+        wt = Instance.new("TextLabel", r44);
+        wt.Size = UDim2.new(0, 24, 1, 0);
+        wt.Position = UDim2.new(1, -28, 0, 0);
+        wt.BackgroundTransparency = 1;
+        wt.Text = "\xe2\x80\xba";
+        wt.TextColor3 = r27.purpleL;
+        wt.TextSize = 22;
+        wt.Font = Enum.Font.GothamBold;
+        wt.ZIndex = 102;
+        st = v2.FindFirstChild(v2, "Items");
+        yt = v2.WaitForChild(v2, "RemoteEvents");
+        r46 = yt.WaitForChild(yt, "GetItem");
+        r47 = {};
+        local function r50(arg1_8, ...)
+            v1 = arg1_8;
+            if not v1 then
+                return "Unknown";
+            end;
+            X = v1.GetAttribute(v1, "DisplayName");
+            if X then
+                o = X ~= "";
+            end;
+            if X then
+                return tostring(X);
+            end;
+            e = v1.FindFirstChild(v1, "DisplayName");
+            if e then
+                o = e.IsA(e, "StringValue") and e.Value ~= "";
+                v1.FindFirstChild(v1, r15[U]);
+            end;
+            if e then
+                return e.Value;
+            end;
+            return v1.Name; 
+        end;
+        if st then
+            Ft = st.GetChildren;
+            ut = {
+                Ft(st)
+            };
+            zt = Ft[2];
+            bt = Ft[3];
+            for bt, ut in ipairs(x(ut)) do
+                kt = bt;
+                if ut.IsA(ut, "Instance") then
+                    table.insert(r47, ut);
+                end; 
+            end;
+            table.sort(r47, function(arg1_9, arg2_9, ...)
+                return arg1_9.Name < arg2_9.Name; 
+            end);
+            jt.Text = "\xf0\x9f\x93\xa6  " .. #r47 .. " Items Available";
+        end;
+        local function r51(arg1_10, arg2_10, arg3_10, ...)
+            B = r49;
+            v1 = arg1_10;
+            X = arg2_10;
+            e = arg3_10;
+            if B then
+                o = r49.Parent;
+            end;
+            if B then
+                v3 = r24;
+                o = v3.Create(v3, r49, TweenInfo.new(.15), {
+                    ["BackgroundColor3"] = r27.card
+                });
+                o.Play(o);
+                v3 = r49;
+                B = v3.FindFirstChildWhichIsA(v3, "UIStroke");
+                if B then
+                    B.Color = Color3.fromRGB(50, 20, 90);
+                end;
+            end;
+            r48 = v1;
+            r49 = X;
+            B = r24;
+            U = B.Create(B, X, TweenInfo.new(.15), {
+                ["BackgroundColor3"] = Color3.fromRGB(40, 15, 75)
+            });
+            U.Play(U);
+            B = X.FindFirstChildWhichIsA(X, "UIStroke");
+            if B then
+                B.Color = r27.purple;
+            end;
+            r42.Text = r50(v1);
+            return; 
+        end;
+        local function r52(arg1_11, ...)
+            v1 = arg1_11;
+            B = r43;
+            X = B[2];
+            B = B[1];
+            for e, v2 in pairs(B.GetChildren(B)) do
+                U = e;
+                if not v2.IsA(v2, "UIListLayout") and not v2.IsA(v2, "UIPadding") then
+                    v2.Destroy(v2);
+                end; 
+            end;
+            U = m[3];
+            for U, m in m[1], ipairs(r47) do
+                v2 = U;
+                r53 = m;
+                s = r15;
+                if v1 == "" or s.find(s, v1.lower(v1), 1, true) then
+                    r54 = Instance.new("Frame", r43);
+                    r54.Size = UDim2.new(1, 0, 0, 34);
+                    r54.BackgroundColor3 = r27.card;
+                    r54.BorderSizePixel = 0;
+                    r54.ZIndex = 103;
+                    r28(r54, UDim.new(0, 7));
+                    r29(r54, Color3.fromRGB(50, 20, 90), 1);
+                    V = Instance.new("Frame", r54);
+                    V.Size = UDim2.new(0, 3, .7, 0);
+                    V.Position = UDim2.new(0, 0, .15, 0);
+                    V.BackgroundColor3 = r27.purple;
+                    V.BorderSizePixel = 0;
+                    V.ZIndex = 104;
+                    r28(V, UDim.new(1, 0));
+                    r55 = Instance.new("TextLabel", r54);
+                    r55.Size = UDim2.new(.65, 0, 0, 18);
+                    r55.Position = UDim2.new(0, 10, 0, 4);
+                    r55.BackgroundTransparency = 1;
+                    v7 = v3(N[m]);
+                    r55.Text = v7;
+                    r55.TextColor3 = r27.white;
+                    r55.TextSize = 11;
+                    r55.Font = Enum.Font.GothamSemibold;
+                    r55.TextXAlignment = Enum.TextXAlignment.Left;
+                    r55.TextTruncate = Enum.TextTruncate.AtEnd;
+                    r55.ZIndex = 104;
+                    s = Instance.new("TextLabel", r54);
+                    s.Size = UDim2.new(.65, 0, 0, 12);
+                    s.Position = UDim2.new(0, 10, 0, 20);
+                    s.BackgroundTransparency = 1;
+                    s.Text = r53.Name;
+                    s.TextColor3 = r27.muted;
+                    s.TextSize = 8;
+                    s.Font = Enum.Font.Gotham;
+                    s.TextXAlignment = Enum.TextXAlignment.Left;
+                    s.TextTruncate = Enum.TextTruncate.AtEnd;
+                    s.ZIndex = 104;
+                    r56 = Instance.new("TextButton", r54);
+                    r56.Size = UDim2.new(0, 64, 0, 24);
+                    r56.Position = UDim2.new(1, -70, 0.5, -12);
+                    r56.BackgroundColor3 = r27.purpleD;
+                    r56.Text = "GIVE";
+                    r56.TextColor3 = r27.white;
+                    r56.TextSize = 10;
+                    r56.Font = Enum.Font.GothamBold;
+                    r56.BorderSizePixel = 0;
+                    r56.ZIndex = 104;
+                    r56.Active = true;
+                    r28(r56, UDim.new(0, 6));
+                    r29(r56, r27.purple, 1);
+                    local function v7(...)
+                        v3 = N[e];
+                        o = v3.Create(v3, r56, TweenInfo.new(.1), {
+                            ["BackgroundColor3"] = r27.green
+                        });
+                        o.Play(o);
+                        r56.TextColor3 = Color3.fromRGB(0, 0, 0);
+                        r56.Text = "\xe2\x9c\x93";
+                        r57 = {
+                            r53,
+                            {
+                                ["questName"] = "Dumplings Quest",
+                                ["questRequiredItems"] = {},
+                                ["prizeItem"] = "Rainbow Dumpling"
+                            }
+                        };
+                        task.spawn(function(...)
+                            for A = 1, N[s] do
+                                pcall(function(...)
+                                    v3 = r56;
+                                    v1 = unpack;
+                                    v3.FireServer(v3, v1(r15));
+                                    return; 
+                                end); 
+                            end;
+                            return; 
+                        end);
+                        task.delay(1.2, function(...)
+                            if r56 and r56.Parent then
+                                v3 = N[e];
+                                o = v3.Create(v3, r56, TweenInfo.new(.2), {
+                                    ["BackgroundColor3"] = r27.purpleD
+                                });
+                                o.Play(o);
+                                r56.Text = "GIVE";
+                                r56.TextColor3 = r27.white;
+                            end;
+                            return; 
+                        end);
+                        return; 
+                    end;
+                    v3 = r56.MouseButton1Click;
+                    v3.Connect(v3, v7);
+                    v3 = r56.Activated;
+                    v3.Connect(v3, v7);
+                    k = Instance.new("TextButton", r54);
+                    k.Size = UDim2.new(.7, 0, 1, 0);
+                    k.BackgroundTransparency = 1;
+                    k.Text = "";
+                    k.ZIndex = 105;
+                    k.Active = true;
+                    v3 = k.MouseButton1Click;
+                    v3.Connect(v3, function(...)
+                        N[kt](r53, r54, r55);
+                        return; 
+                    end);
+                    v3 = k.Activated;
+                    v3.Connect(v3, function(...)
+                        N[kt](r53, r54, r55);
+                        return; 
+                    end);
+                    v3 = r54.MouseEnter;
+                    v3.Connect(v3, function(...)
+                        o = r54;
+                        if o ~= r49 then
+                            v3 = N[e];
+                            o = v3.Create(v3, r54, TweenInfo.new(.1), {
+                                ["BackgroundColor3"] = r27.hover
+                            });
+                            o.Play(o);
+                        end;
+                        return; 
+                    end);
+                    v3 = r54.MouseLeave;
+                    v3.Connect(v3, function(...)
+                        o = r54;
+                        if o ~= r49 then
+                            v3 = N[e];
+                            o = v3.Create(v3, r54, TweenInfo.new(.1), {
+                                ["BackgroundColor3"] = r27.card
+                            });
+                            o.Play(o);
+                        end;
+                        return; 
+                    end);
+                    X = 0 + 1;
+                end; 
+            end;
+            if 0 == 0 then
+                B = Instance.new("TextLabel", r43);
+                B.Size = UDim2.new(1, 0, 0, 30);
+                B.BackgroundTransparency = 1;
+                B.Text = "No items found";
+                B.TextColor3 = r27.muted;
+                B.TextSize = 11;
+                B.Font = Enum.Font.GothamMedium;
+                B.ZIndex = 103;
+            end;
+            return; 
+        end;
+        r52("");
+        zt = r42;
+        bt = zt.GetPropertyChangedSignal(zt, "Text");
+        bt.Connect(bt, function(...)
+            r52(r42.Text);
+            return; 
+        end);
+        zt = r44.MouseButton1Click;
+        zt.Connect(zt, function(...)
+            v1 = r48;
+            if not v1 and r42.Text ~= "" then
+                v3 = r42.Text;
+                U = r47;
+                B = ("\xf2S\x16\x00")[3];
+                e = ("\xf2S\x16\x00")[2];
+                for B, m in ipairs("ipairs") do
+                    v2 = B;
+                    V = r50(m);
+                    w = V.lower(V);
+                    V = w.find(w, v3.lower(v3), 1, true);
+                    if V then
+                        if V then
+                            v1 = m;
+                        else
+                            
+                        end;
+                    else
+                        w = m.Name;
+                        V = w.lower(w);
+                        v4 = V.find(V, v3.lower(v3), 1, true);
+                    end; 
+                end;
+            end;
+            if not v1 then
+                X = r24;
+                e = X.Create(X, r44, TweenInfo.new(.1), {
+                    ["BackgroundColor3"] = Color3.fromRGB(100, 10, 20)
+                });
+                e.Play(e);
+                r45.Text = "\xe2\x9d\x8c Select an item first!";
+                task.delay(1.5, function(...)
+                    v3 = r24;
+                    o = v3.Create(v3, r44, TweenInfo.new(.2), {
+                        ["BackgroundColor3"] = r27.purpleD
+                    });
+                    o.Play(o);
+                    r45.Text = "START SPAM";
+                    return; 
+                end);
+                return;
+            end;
+            X = r24;
+            e = X.Create(X, r44, TweenInfo.new(.15), {
+                ["BackgroundColor3"] = Color3.fromRGB(20, 120, 60)
+            });
+            e.Play(e);
+            v4 = r50(v1);
+            r45.Text = "\xe2\x9c\x85 SPAWNING " .. v4.upper(v4) .. "...";
+            r58 = {
+                v1,
+                {
+                    ["questName"] = "Dumplings Quest",
+                    ["questRequiredItems"] = {},
+                    ["prizeItem"] = "Rainbow Dumpling"
+                }
+            };
+            task.spawn(function(...)
+                for A = 1, r26 do
+                    pcall(function(...)
+                        v3 = r42;
+                        v1 = unpack;
+                        v3.FireServer(v3, v1(r15));
+                        return; 
+                    end); 
+                end;
+                return; 
+            end);
+            task.delay(1.5, function(...)
+                v3 = r24;
+                o = v3.Create(v3, r44, TweenInfo.new(.2), {
+                    ["BackgroundColor3"] = r27.purpleD
+                });
+                o.Play(o);
+                r45.Text = "START SPAM";
+                return; 
+            end);
+            return; 
+        end);
+        zt = r44.Activated;
+        zt.Connect(zt, function(...)
+            v3 = r44.MouseButton1Click;
+            v3.Fire(v3);
+            return; 
+        end);
+        r59 = false;
+        local function r60(arg1_12, ...)
+            v1 = arg1_12;
+            r59 = v1;
+            if v1 then
+                r39.Size = UDim2.new(0, r37, 0, 0);
+                r39.Visible = true;
+                o = r24;
+                X = o.Create(o, r39, TweenInfo.new(.4, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {
+                    ["Size"] = UDim2.new(0, r37, 0, r38)
+                });
+                X.Play(X);
+                r31.Text = "\xe2\x9c\x95";
+                r31.BackgroundColor3 = Color3.fromRGB(120, 10, 30);
+            else
+                o = r24;
+                X = o.Create(o, r39, TweenInfo.new(0.25, Enum.EasingStyle.Quart, Enum.EasingDirection.In), {
+                    ["Size"] = UDim2.new(0, r37, 0, 0)
+                });
+                X.Play(X);
+                task.delay(.26, function(...)
+                    r39.Visible = false;
+                    return; 
+                end);
+                r31.Text = "\xf0\x9f\xab\xa7";
+                r31.BackgroundColor3 = r27.purpleD;
+            end;
+            return; 
+        end;
+        ut = r31.MouseButton1Click;
+        ut.Connect(ut, function(...)
+            if not r34 then
+                r60(not r59);
+            end;
+            return; 
+        end);
+        ut = r31.Activated;
+        ut.Connect(ut, function(...)
+            r60(not r59);
+            return; 
+        end);
+        ut = Xt.MouseButton1Click;
+        ut.Connect(ut, function(...)
+            r60(false);
+            return; 
+        end);
+        ut = Xt.Activated;
+        ut.Connect(ut, function(...)
+            r60(false);
+            return; 
+        end);
+        r61 = false;
+        ut = r41.MouseButton1Click;
+        ut.Connect(ut, function(...)
+            v3 = not r61;
+            r61 = v3;
+            o = r24;
+            v7 = v3;
+            v3 = v3;
+            v1 = o.Create(o, r39, TweenInfo.new(0.25, Enum.EasingStyle.Quart), {
+                ["Size"] = UDim2.new(0, r37, 0, r61 and 64 or r38)
+            });
+            v1.Play(v1);
+            v3 = v3;
+            r41.Text = r61 and "+" or "\xe2\x88\x92";
+            v3 = v3;
+            return; 
+        end);
+        r62 = 0;
+        r63 = 0;
+        dt = v4.GetService(v4, "RunService").Heartbeat;
+        dt.Connect(dt, function(arg1_13, ...)
+            r63 = r63 + 1;
+            if r63 % 3 ~= 0 then
+                return;
+            end;
+            r62 = (r62 + arg1_13 * 0.5) % 1;
+            X = r62 * 6;
+            e = math.floor(X) % 6;
+            B = X - math.floor(X);
+            U = 1 - B;
+            if e == 0 then
+                m = Color3.new(1, B * .3, 1);
+            else
+                if e == 1 then
+                    m = Color3.new(1 - (X - math[r15[V]](X)) * 0.5, .1, 1);
+                else
+                    if math.floor(X) % 6 == 2 then
+                        m = Color3.new(.4, 0, 1);
+                    else
+                        if math.floor(X) % 6 == 3 then
+                            m = Color3.new(.3, B * .3, 1);
+                        else
+                            if math.floor(X) % 6 == 4 then
+                                m = Color3.new(B * .9, .1, 1);
+                            else
+                                m = Color3.new(1, 0, 1 - (1 - B) * .4);
+                            end;
+                            r40.Color = k;
+                            r32.Color = m;
+                            r33.ImageColor3 = m;
+                            r33.ImageTransparency = .3 + (math.sin(tick() * 3) + 1) / 2 * .4;
+                            return;
+                        end;
+                    end;
+                end;
+            end; 
+        end);
+        task.wait(0.5);
+        r60(true);
+        print("\xe2\x9c\x85 Purple Neon Spawner loaded! " .. #r47 .. " items ready");
+        return;
+    end;
+end;
+return (function(...)
+    while true do
+        l1 = l2;
+        l2 = l1;
+        r3(); 
+    end;
+    return; 
+end)();
